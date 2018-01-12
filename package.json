@@ -1,0 +1,9 @@
+{
+  "name": "assignment4",
+  "description": "COMP 2406 - Assignment 4",
+  "author": "Akhil Dalal",
+  "dependencies": {
+	"socket.io": ">= 1.6.0",
+	"mime-types": ">= 2.1.13"
+  }
+}

@@ -1,0 +1,53 @@
+body {
+	background-color: #222222;
+	color: #ccc;
+	font-family: arial;
+	font-size: 1.2em;
+}
+
+#contents{
+	width: 100%;
+	height: 250px;
+	padding-top: 10px;
+}
+
+#chatLogDiv {
+	float: left;
+	width: 85%;
+	height: 100%;
+}
+
+#userListDiv {
+	height: 100%;
+	width: 10%;
+	float: right;
+	overflow: auto;
+	border: solid 1px #558888;
+}
+
+#inputTextDiv{
+	padding-top: 15px;
+}
+#inputText, #userListDiv, #chatLog {
+	box-shadow: 4px 4px 4px #000;
+	border: solid 1px #558888;
+	background-color: black;
+	color: #ccc;
+	font-family: arial;
+}
+
+#inputText, #chatLog{
+	width: 100%;
+}
+
+#inputText {
+	height: 20px;
+}
+#chatLog{
+	height: 245px;
+	font-size: 1.1em;
+}
+
+#userList {
+	list-style-type:none;
+}
